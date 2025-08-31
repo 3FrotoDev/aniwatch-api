@@ -20,6 +20,7 @@ const loggerOptions: LoggerOptions = {
             };
         },
     },
+    //@ts-ignore
     timestamp: pino.stdTimeFunctions.isoTime,
 };
 
